@@ -1,4 +1,5 @@
 <script>
+
 export default{
   name:'App',
   data(){
@@ -22,7 +23,7 @@ export default{
       localStorage.setItem('vencimiento',this.vencimiento);
       localStorage.setItem('Cantidad',this.Cantidad);
       localStorage.setItem('UMedida',this.UMedida);
-
+      
     this.Nombre = ''
     this.Categoria = ''
     this.Precio = ''
@@ -32,6 +33,7 @@ export default{
 
 
   }
+
 }
 }
 
